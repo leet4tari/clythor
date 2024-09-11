@@ -63,6 +63,7 @@ apt-get install --no-install-recommends --assume-yes \
   libsqlite3-0 \
   libreadline-dev \
   git \
+  make \
   cmake \
   dh-autoreconf \
   clang \
@@ -148,7 +149,6 @@ EoF
 
   # scripts/install_ubuntu_dependencies-cross_compile.sh x86-64
   apt-get --assume-yes install \
-    pkg-config-${targetPlatform}-linux-gnu \
     gcc-${targetPlatform}-linux-gnu \
     g++-${targetPlatform}-linux-gnu
 
